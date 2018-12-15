@@ -1,5 +1,7 @@
 ## Star Wars App - Heri Risnanto
 
+Live demo: https://starwars-rjs.herokuapp.com/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

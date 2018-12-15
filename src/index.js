@@ -116,14 +116,14 @@ class StarWarsApp extends Component{
 
         if (isLoading) {
             return (
-                <section class="hero is-warning is-fullheight">
-                    <div class="hero-body">
-                        <div class="container has-text-centered is-centered">
-                        <h1 class="title">
+                <section className="hero is-warning is-fullheight">
+                    <div className="hero-body">
+                        <div className="container has-text-centered is-centered">
+                        <h1 className="title">
                             <p>Loading ...</p>
                         </h1>
-                        <h2 class="subtitle">
-                            <div class="lds-ripple"><div></div><div></div></div>
+                        <h2 className="subtitle">
+                            <div className="lds-ripple"><div></div><div></div></div>
                         </h2>
                         </div>
                     </div>

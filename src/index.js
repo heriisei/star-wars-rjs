@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import './index.css';
 
 const Header = () => {
     return (
@@ -114,7 +115,20 @@ class StarWarsApp extends Component{
         }
 
         if (isLoading) {
-            return <p>Loading ...</p>;
+            return (
+                <section class="hero is-warning is-fullheight">
+                    <div class="hero-body">
+                        <div class="container has-text-centered is-centered">
+                        <h1 class="title">
+                            <p>Loading ...</p>
+                        </h1>
+                        <h2 class="subtitle">
+                            <div class="lds-ripple"><div></div><div></div></div>
+                        </h2>
+                        </div>
+                    </div>
+                </section>
+            );
         }
 
         const pageNumbers = [];

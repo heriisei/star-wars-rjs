@@ -66,7 +66,7 @@ const Footer = () => {
     );
 }
 
-const SWAPI = 'https://swapi.co/api/people/?format=json&page=';
+const SWAPI = 'https://swapi.dev/api/people/?format=json&page=';
 
 class StarWarsApp extends Component{
     constructor(props){
